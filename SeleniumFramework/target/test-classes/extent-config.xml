@@ -1,0 +1,9 @@
+<extentreports>
+    <configuration>
+        <reportname>Google Search Test Report</reportname>
+        <reportheadline>Test Results</reportheadline>
+        <encoding>utf-8</encoding>
+        <documentTitle>Test Execution Report</documentTitle>
+        <theme>standard</theme>
+    </configuration>
+</extentreports>
