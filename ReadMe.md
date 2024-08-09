@@ -24,33 +24,43 @@ ChromeDriver and/or GeckoDriver
 
 ## Project Structure
 
-src/main/java/: Contains page classes, utility classes, and base test classes.
-src/test/java/: Contains step definitions and test runner classes.
-src/test/resources/: Contains feature files for Cucumber and configuration files.
-pom.xml: Maven configuration file with dependencies and build settings.
-runTests.bat: Batch file to execute tests with different browser parameters.
+- src/main/java/: Contains page classes, utility classes, and base test classes.
+- src/test/java/: Contains step definitions and test runner classes.
+- src/test/resources/: Contains feature files for Cucumber and configuration files.
+- pom.xml: Maven configuration file with dependencies and build settings.
+- runTests.bat: Batch file to execute tests with different browser parameters.
 
 ## Getting Started
 
-Clone the Repository:
+1. Clone the Repository:
 
-bash
-Copy code
-git clone https://github.com/yourusername/selenium-framework.git
-cd selenium-framework
-Configure Your Environment:
+- git clone https://github.com/yourusername/selenium-framework.git
+  -  cd selenium-framework
+2. Configure Your Environment:
 
-Update the config.properties file with the appropriate browser settings and base URL.
+- Update the config.properties file with the appropriate browser settings and base URL.
+
 Run Tests:
 
-To run tests on Chrome, execute:
-bash
-Copy code
-runTests.bat chrome
-To run tests on Firefox, execute:
-bash
-Copy code
+- To run tests on Chrome, execute:
+
+
+  runTests.bat chrome
+
+-To run tests on Firefox, execute:
+
 runTests.bat firefox
-View Reports:
+
+4. View Reports:
 
 Test reports are generated in the test-output directory. Open extent-report.html to view detailed test results.
+
+## Contributing
+Contributions are welcome! Please fork the repository, make your changes, and submit a pull request. Ensure that your code adheres to the project's coding standards and includes relevant tests.
+
+## License
+Open source
+
+## Contact
+For any questions or support, please open an issue in the repository or contact ganesh.sinha@gmail.com
+
